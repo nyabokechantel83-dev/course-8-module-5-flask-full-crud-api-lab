@@ -83,7 +83,7 @@ def delete_event(event_id):
 
             return jsonify({
                 "message": "Event deleted successfully"
-            }), 200
+            }), 204
 
     return jsonify({
         "error": "Event not found"
